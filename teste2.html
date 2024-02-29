@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1</title>
+</head>
+
+<body style="font-size: 30px;">
+    <h2 id="Título">Exemplo 1</h2>
+    <p id="x"> </p>
+    <button onclick="trocar();">Trocar</button> <br>
+    <script>
+        function exibir() {
+            window.alert("Trocando as palavras.");
+            document.write("Título");
+            document.write("<br>");
+            document.write("Teste");
+            document.write("<br>");
+            document.getElementById("Título").innerHTML = "Teste";
+            document.getElementById("x").innerHTML = "Jotage";
+        }
+
+    </script>
+
+</body>
+
+</html>
